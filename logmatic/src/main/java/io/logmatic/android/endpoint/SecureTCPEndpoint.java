@@ -15,8 +15,8 @@ import javax.net.ssl.SSLSocketFactory;
 public class SecureTCPEndpoint implements Endpoint {
 
     /* Constants props */
-    public static final String LOGMATIC_DST_HOST = "api.logmatic.io";
-    public static final int LOGMATIC_SSL_DST_PORT = 10515;
+    public static final String LOGMATIC_DST_HOST = "tcp-intake.logs.datadoghq.eu";
+    public static final int LOGMATIC_SSL_DST_PORT = 443;
 
     private SSLSocket socket;
     private DataOutputStream stream;
